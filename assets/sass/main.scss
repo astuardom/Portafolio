@@ -1,0 +1,73 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+$theme-colors: (
+  "primary": #3498db,
+  "secondary": #2ecc71,
+  "success": #28a745,
+  "info": #17a2b8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #343a40
+);
+
+body{
+    background-color: rgb(247, 242, 232);
+}
+
+.imagenPrincipal{
+    width: 30vw;
+    height: 30vw;
+}
+
+@media (max-width: 767px) {
+    .imagenPrincipal {
+      width: auto; 
+      max-width: none;
+    }
+ }
+.Titulo1Principal{
+    color: #1d3557;
+}
+
+.Titulo2Principal{
+    color: #88c3d9;
+}
+
+.botonPrincipal{
+    background-color: #1d3557;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.alineacionContenidoDerecho{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .justify-content-center {
+    padding: auto;
+    margin: 20px;
+  }
+
+  .contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-info i {
+    margin-right: 0.5rem;
+    color: #000; 
+  }
+  
+  .botonPrincipal:hover {
+    background-color: #0056b3; 
+  }
+  
+  
